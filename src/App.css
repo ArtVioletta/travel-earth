@@ -1,0 +1,26 @@
+.App {
+  text-align: center;
+}
+
+p {
+  margin:0;
+  padding: 0;
+}
+
+
+@media (max-width: 991px) {
+
+  .sectionTitle, .sectionSubtitle {
+    color:#543024 ;
+    display:flex;
+    justify-content: center;
+  }
+
+}
+@media (max-width: 575px) {
+  .sectionTitle, .sectionSubtitle {
+    color:#543024 ;
+    justify-content: center;
+  }
+
+}

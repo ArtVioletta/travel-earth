@@ -1,0 +1,154 @@
+
+.photo{
+    background-image: url("https://wallpaperaccess.com/full/147476.jpg");
+    display: block;
+    position: relative;
+    height: 708px;
+    width: 100vw;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.phoneNumber{
+    margin-left: 10px;
+}
+.nav-element {
+    margin-left: 40px;
+    font-size: 24px;
+    color: white;
+    text-decoration: none;
+}
+
+.header {
+    width: 1200px;
+    height: 38px;
+    align-items: center;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+nav.navigation {
+    width: max-content;
+    height: auto;
+}
+
+.logo {
+    width: 130px;
+    height: 25px;
+}
+
+.support{
+    border-radius: 20px;
+    padding: 5px 20px ;
+    border: 1px solid #C4C4C4;
+    background-color: transparent;
+}
+
+.textWrapperFirstContainer {
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    display: flex;
+    width: 1200px;
+    margin: auto;
+    height: calc(100% - 72px);
+}
+
+.supportContainer{
+    color:white;
+    align-items: center;
+}
+
+.travel{
+    font-size: 40px;
+    color: white;
+}
+
+.explore{
+    color: white;
+    margin-bottom: 10px;
+    width: 470px;
+    line-height: 22px;
+
+}
+
+.go{
+    width: 150px;
+    height: 40px;
+    color: white;
+    background-color: darkorange;
+    border-radius: 10px ;
+}
+
+@media screen and (max-width: 1200px) {
+        .navigation{
+            width:1140px;
+        }
+    .textWrapperFirstContainer{
+            width:1140px;
+        }
+}
+@media screen and (max-width: 1199px) {
+    .navigation {
+        width: 960px;
+    }
+    .textWrapperFirstContainer{
+        width:960px;
+    }
+}
+@media screen and (max-width: 991px) {
+    .navigation {
+        display: none;
+    }
+    .textWrapperFirstContainer{
+        width:768px;
+    }
+
+    .header {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 575px) {
+    .navigation{
+        width: 320px;
+    }
+    .header{
+        width: 320px;
+    }
+    .textWrapperFirstContainer{
+        margin-top: 150px;
+        width:100%;
+
+    }
+    .supportContainer{
+       display: none;
+    }
+    .travel{
+        font-size: 30px;
+        color: white;
+    }
+    .explore{
+        color: white;
+        margin-bottom: 10px;
+        width: 320px;
+        line-height: 22px;
+
+    }
+
+    .go {
+        text-align: center;
+        justify-content: center;
+    }
+    .logo{
+        padding: 10px;
+    }
+}
+
+
+
+
+

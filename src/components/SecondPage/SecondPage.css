@@ -1,0 +1,112 @@
+.secondSectionTitle{
+    color:#543024 ;
+}
+
+.secondSectionWrapper {
+    width: 1200px;
+    margin: auto;
+}
+
+.card{
+    display: flex;
+    width: 585px;
+    justify-content: center;
+    margin-bottom: 31px;
+    min-height: 173px;
+}
+
+.chip{
+    background-color: crimson;
+}
+
+.cardWrapper{
+    width: 1200px;
+    display: flex;
+    border-radius: 15px 0;
+    flex-direction: row;
+    margin: auto;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.cardImage{
+    border-radius: 15px 0;
+    flex-direction: column;
+    width:300px !important;
+    display: flex;
+
+}
+.cardContent{
+    border-radius: 15px 15px 15px 15px;
+    display: block;
+    flex-direction: column;
+    width: 50%;
+}
+
+.buttonSee{
+    width: 200px;
+    height: 40px;
+    color: white;
+   background-color:darkorange;
+    border-radius: 15px ;
+    margin-left: 45%;
+}
+
+@media screen and (max-width: 1200px) {
+    .card{
+        width:1140px;
+    }
+}
+@media screen and (max-width: 1199px) {
+    .card{
+        width:960px;
+    }
+}
+
+@media (max-width: 991px){
+    .card{
+        width:768px;
+        border-radius: 25px;
+        padding: 10px 10px;
+    }
+    .cardWrapper{
+        width: 768px;
+        display: flex;
+        flex-direction: column;
+        margin: auto;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+    .secondSectionWrapper {
+        width: 768px;
+        margin: auto;
+    }
+    .buttonSee{
+        font-size: 15px;
+        margin-left: 50px;
+
+    }
+}
+
+@media(max-width: 575px){
+    .secondSectionWrapper{
+        width: 160px;
+    }
+    .card{
+        border-radius: 10px;
+        display: block;
+        width: 250px;
+        min-height: 173px;
+        justify-content: center;
+    }
+    .cardContent{
+        border-radius: 15px 0px 0px 15px;
+        flex-direction: column;
+        width: 100%;
+        height: 100%;
+        justify-content: center;
+    }
+}
+
+
+
