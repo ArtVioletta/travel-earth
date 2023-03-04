@@ -1,15 +1,17 @@
 {
   "files": {
     "main.css": "/travel-earth/static/css/main.d992cc9d.css",
-    "main.js": "/travel-earth/static/js/main.d7092fd6.js",
+    "main.js": "/travel-earth/static/js/main.c9894f7b.js",
     "static/js/787.14d8b63e.chunk.js": "/travel-earth/static/js/787.14d8b63e.chunk.js",
+    "static/media/Group15.svg": "/travel-earth/static/media/Group15.cb9c6404e726000cf6365ba74ee2eca8.svg",
+    "static/media/communications1.svg": "/travel-earth/static/media/communications1.ea2e1a9960b98d14c66e525605614650.svg",
     "index.html": "/travel-earth/index.html",
     "main.d992cc9d.css.map": "/travel-earth/static/css/main.d992cc9d.css.map",
-    "main.d7092fd6.js.map": "/travel-earth/static/js/main.d7092fd6.js.map",
+    "main.c9894f7b.js.map": "/travel-earth/static/js/main.c9894f7b.js.map",
     "787.14d8b63e.chunk.js.map": "/travel-earth/static/js/787.14d8b63e.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.d992cc9d.css",
-    "static/js/main.d7092fd6.js"
+    "static/js/main.c9894f7b.js"
   ]
 }
