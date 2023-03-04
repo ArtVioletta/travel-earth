@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/travel-earth/static/css/main.d992cc9d.css",
+    "main.js": "/travel-earth/static/js/main.d7092fd6.js",
+    "static/js/787.14d8b63e.chunk.js": "/travel-earth/static/js/787.14d8b63e.chunk.js",
+    "index.html": "/travel-earth/index.html",
+    "main.d992cc9d.css.map": "/travel-earth/static/css/main.d992cc9d.css.map",
+    "main.d7092fd6.js.map": "/travel-earth/static/js/main.d7092fd6.js.map",
+    "787.14d8b63e.chunk.js.map": "/travel-earth/static/js/787.14d8b63e.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d992cc9d.css",
+    "static/js/main.d7092fd6.js"
+  ]
+}
