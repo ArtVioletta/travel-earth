@@ -6,7 +6,9 @@ p {
   margin:0;
   padding: 0;
 }
-
+.secondTitle{
+  margin-top: 70px
+}
 
 @media (max-width: 991px) {
 

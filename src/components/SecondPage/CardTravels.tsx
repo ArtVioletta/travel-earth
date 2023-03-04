@@ -5,7 +5,7 @@ import CardContent from "@mui/material/CardContent";
 import Typography from "@mui/material/Typography";
 import {Stack} from "@mui/material";
 import Chip from "@mui/material/Chip";
-import {CardItem} from "./SecondPage";
+import {CardItem} from "../../interfaces/CardItem";
 
 
 export const CardTravels: React.FC<CardItem> = (props) => {
